@@ -1,0 +1,61 @@
+body {
+	background-color: #000000;
+}
+
+table#stationdetail {
+	background-color: #343845;
+}
+
+div#datachart {
+	background-color: #70747D;
+}
+
+div#chartfooter {
+	background-color: #B5B6BA;
+}
+/* header details */
+table#stationdetail td#stationimage {background-color: #F9E39B;}
+table#stationdetail td#stationtitle {background-color: #A9DCB4;}
+
+table#stationdetail td#stationvalue {background-color: #F5B1A5;}
+table#stationdetail td#stationdate {background-color: #F9E39B;}
+
+/* buttons */
+.btn-default {background-color: #ABC9E5;}
+.btn-default.active, .btn-default:hover, .btn-default.active:hover {background-color: #85b1da;}
+
+/* chart layout */
+
+/*axis text*/
+div#datachart svg text {
+	fill: #ABC9E5;
+}
+/* water area */
+div#datachart svg path[stroke="none"] {
+	fill: #A9DCB4;
+}
+
+/* water line */
+div#datachart svg path[stroke="#2164b0"] {
+	stroke: #219934;
+}
+/* water value point */
+div#datachart svg circle {
+	fill: #219934;
+	stroke: #219934;
+}
+
+/* chart hover area (bubble) */
+
+/* bubble color */
+div#datachart .morris-hover.morris-default-style {
+	color: black;
+	background-color: #ABC9E5;
+	border-color: #6095CB;
+	
+}
+/* bubble text color */
+div#datachart .morris-hover-point{
+	color: black !important;
+}
+

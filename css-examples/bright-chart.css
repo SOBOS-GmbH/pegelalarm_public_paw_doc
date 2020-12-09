@@ -1,0 +1,95 @@
+body {
+	background-color: #BAC8D9;
+	overflow:hidden;
+}
+
+table#stationdetail {
+	background-color: #BAC8D9;
+	color: black
+}
+
+div#datachart {
+	background-color: #BAC8D9;
+	color: white;
+}
+
+div#chartfooter {
+	background-color: #BAC8D9;
+}
+/* header details */
+table#stationdetail td#stationimage {background-color: #BAC8D9;}
+table#stationdetail td#stationtitle {background-color: #BAC8D9;}
+
+table#stationdetail td#stationvalue {background-color: #BAC8D9;}
+table#stationdetail td#stationdate {background-color: #BAC8D9;}
+
+/* buttons */
+.btn-default {background-color: #BAC8D9;}
+.btn-default.active, .btn-default:hover, .btn-default.active:hover {background-color: #85b1da;}
+
+/* chart layout */
+
+/*axis text*/
+div#datachart svg text {
+	fill: #ABC9E5;
+}
+/* water area */
+div#datachart svg path[stroke="none"] {
+	fill: #1D387F;
+}
+
+/* water line */
+div#datachart svg path[stroke="#2164b0"] {
+	stroke: #3B6FFF;
+}
+/* water value point */
+div#datachart svg circle {
+	fill: #648DFF;
+	stroke: #648DFF;
+}
+
+/* chart hover area (bubble) */
+
+/* bubble color */
+div#datachart .morris-hover.morris-default-style {
+	color: black;
+	background-color: #BAC8D9;
+	border-color: #6095CB;
+	
+}
+/* bubble text color */
+div#datachart .morris-hover-point{
+	color: black !important;
+}
+
+#d4 {
+	visibility: hidden !important;
+}
+
+div#d4 {
+	visibility: hidden !important;
+}
+
+#d3 {
+	visibility: hidden !important;
+}
+
+div#d3 {
+	visibility: hidden !important;
+}
+
+#timecontroller {
+	visibility: hidden !important;
+}
+
+#d1l2 {
+	visibility: hidden !important;
+}
+
+div#d1l2 {
+	visibility: hidden !important;
+}
+
+#d2 {
+	color: white !important;
+}
